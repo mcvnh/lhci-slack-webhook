@@ -1,24 +1,25 @@
 {
-  "name": "hello-world-javascript-action",
+  "name": "lhci-slack-webhook",
   "version": "1.0.0",
-  "description": "This action prints \"Hello World\" or \"Hello\" + the name of a person to greet to the log.",
+  "description": "NO DESCRIPTION",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/hello-world-javascript-action.git"
+    "url": "git+https://github.com/mcvnh/lhci-slack-webhook.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/actions/hello-world-javascript-action/issues"
+    "url": "git+https://github.com/mcvnh/lhci-slack-webhook.git#issues"
   },
-  "homepage": "https://github.com/actions/hello-world-javascript-action#readme",
+  "homepage": "git+https://github.com/mcvnh/lhci-slack-webhook.git#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.1"
+    "@actions/github": "^5.0.1",
+    "node-fetch": "^3.3.1"
   }
 }

@@ -1,13 +1,15 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'LHCI Slack Webhook'
+description: 'Send to slack webhook a summary of LHCI results'
+
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  slack_webhook:
+    description: 'Slack Webhook'
     required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+
+  manifest:  # id of input
+    description: 'LHCI Manifest'
+    required: true
+
 runs:
   using: 'node16'
   main: 'index.js'
